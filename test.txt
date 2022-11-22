@@ -1,0 +1,14 @@
+git clone https://github.com/osurin/reactdemo.git
+//move to directory reactdemo
+//create some text file
+git status
+git init -b main
+git add .
+git commit -m "first commit"
+git push origin main
+
+git branch test
+git checkout test
+git pull origin test
+git add .
+git push origin test
